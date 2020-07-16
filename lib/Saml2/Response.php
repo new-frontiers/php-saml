@@ -239,6 +239,7 @@ class OneLogin_Saml2_Response
                 }
 
                 // Check destination
+                /*
                 if ($this->document->documentElement->hasAttribute('Destination')) {
                     $destination = trim($this->document->documentElement->getAttribute('Destination'));
                     if (empty($destination)) {
@@ -263,6 +264,7 @@ class OneLogin_Saml2_Response
                         }
                     }
                 }
+                */
 
                 // Check audience
                 $validAudiences = $this->getAudiences();
