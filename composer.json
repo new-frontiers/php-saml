@@ -1,6 +1,6 @@
 {
-    "name": "onelogin/php-saml",
-    "description": "OneLogin PHP SAML Toolkit",
+    "name": "newfrontiers/php-saml",
+    "description": "NFS fork of OneLogin PHP SAML Toolkit",
     "license": "MIT",
     "homepage": "https://developers.onelogin.com/saml/php",
     "keywords": ["saml", "saml2", "onelogin"],
@@ -15,7 +15,7 @@
         "source": "https://github.com/onelogin/php-saml/"
     },
     "require": {
-        "php": ">=5.4",
+        "php": ">=7.2",
         "robrichards/xmlseclibs": ">=3.0.4"
     },
     "require-dev": {

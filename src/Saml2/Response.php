@@ -268,6 +268,7 @@ class Response
                 }
 
                 // Check destination
+                /*
                 if ($this->document->documentElement->hasAttribute('Destination')) {
                     $destination = trim($this->document->documentElement->getAttribute('Destination'));
                     if (empty($destination)) {
@@ -291,6 +292,7 @@ class Response
                         }
                     }
                 }
+                */
 
                 // Check audience
                 $validAudiences = $this->getAudiences();
