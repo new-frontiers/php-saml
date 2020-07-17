@@ -348,9 +348,9 @@ class Response
                         }
                         if ($scnData->hasAttribute('Recipient')) {
                             $recipient = $scnData->getAttribute('Recipient');
-                            if (!empty($recipient) && strpos($recipient, $currentURL) === false) {
-                                continue;
-                            }
+                            //if (!empty($recipient) && strpos($recipient, $currentURL) === false) {
+                            //    continue;
+                            //}
                         }
                         if ($scnData->hasAttribute('NotOnOrAfter')) {
                             $noa = Utils::parseSAML2Time($scnData->getAttribute('NotOnOrAfter'));

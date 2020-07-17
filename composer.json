@@ -16,7 +16,8 @@
     },
     "require": {
         "php": ">=7.2",
-        "robrichards/xmlseclibs": ">=3.0.4"
+        "robrichards/xmlseclibs": ">=3.0.4",
+        "ext-dom": "*"
     },
     "require-dev": {
         "php-coveralls/php-coveralls": "^1.0.2 || ^2.0",
